@@ -1,0 +1,59 @@
+table {
+    border-collapse: collapse;
+}
+
+th, td {
+    text-align: center;
+}
+
+thead * td, th {
+    font-weight: bold;
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
+}
+
+tfoot {
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
+}
+
+caption {
+    font-weight: bold;
+    border-top: 1px solid black;
+}
+
+.rodape {
+    text-align: left;
+}
+
+
+.form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.titulo {
+    text-align: center;
+}
+
+.ano {
+    width: 0%;
+    padding: 0;
+    background-color: silver;
+}
+
+.bpc {
+    width: 600px;
+    background-color: #86c3eb;
+}
+
+.bolsa_familia {
+    width: 600px;
+    background-color: #fac28a;
+}
+
+.outro_prg {
+    width: 600px;
+    background-color: #8ec89a;
+}

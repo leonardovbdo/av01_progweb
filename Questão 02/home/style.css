@@ -1,0 +1,19 @@
+.title {
+    text-align: center;
+}
+
+.list {
+    justify-content: center;
+    align-items: center;
+}
+
+ul {
+    list-style-type: none;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+
+li {
+    text-align: center;
+}
